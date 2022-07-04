@@ -1,0 +1,16 @@
+let numberOfCats = 2;
+let numberOfDogs = 4;
+let numberOfAnimal = numberOfCats + numberOfCats;
+const numberOfSeasons = 4;
+numberOfCats -= 1;
+numberOfSeasons++;
+numberOfAnimal--;
+numberOfAnimal *= 6;
+let userIsSignedIn = true;
+let userIsAdmin = false;
+let firstName = 'Yiling';
+let lastName = 'CAI';
+let wholeName = firstName + ' ' + lastName;
+let myName = `Yiling`;
+let salutation = `Bienvenue ${myName}`;
+console.log(salutation);
