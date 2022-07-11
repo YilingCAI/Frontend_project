@@ -1,0 +1,89 @@
+        < !-- CSS unit relative units relative to font-size / viewports (vm, vmax...) : weight on percetage,
+        height is very rare,
+        -->< !-- Percentages : commum size width 960px;
+        image 90% of the width max-width : 620px -->< !-- The em units relative to the parents font-size rem (root) font-size / margins /padding-->< !-- flexbox refresher -->
+
+
+body{
+    font-size: 1.125rem;
+    color:black;
+    margin:0;
+}
+
+
+/* Topography */
+
+
+
+/* layout */
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container{
+    width: 95%;
+    max-width:980px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.col-1{
+
+}
+
+.col-2 {}
+.col-3 {}
+
+/* screen print speech */
+/* widths orientation specific features */
+@media all (min-width: 500px){
+    body{
+        background: orange;/* >=500px */
+    }
+
+}
+
+@media (max-width: 600px){
+    .containers{
+        flex-direction: column;
+    }
+}
+
+bodu{
+    margin: 0;
+    font-family: 'Ubunru', sans-serif;
+}
+
+header{
+    text-align: center;
+    background-color: pink;
+    padding: 2em 0;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+nav li{
+    margin: 0 1em;
+}
+
+
+nav a{
+
+}
+
+nav a:hover,
+nav a:focus{
+
+
+}
