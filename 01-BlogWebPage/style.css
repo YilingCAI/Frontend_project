@@ -1,0 +1,46 @@
+/* Define personal polices */
+@font-face {
+    font-family: 'BallparkWeiner';
+    src: url('/polices/ballpark.eot'); /* IE9 Compat Modes */
+    src: url('/polices/ballpark.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/polices/ballpark.woff') format('woff'), /* Pretty Modern Browsers */
+         url('/polices/ballpark.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('/polices/ballpark.svg#BallparkWeiner') format('svg') /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dayrom';
+    src: url('/polices/dayrom.eot'); /* IE9 Compat Modes */
+    src: url('/polices/dayrom.eot?#iefix') format('embedded-opentype'),/* IE6-IE8 */
+        url('/polices/dayrom.woff') format('woff'),/* Pretty Modern Browsers */
+        url('/polices/dayrom.ttf') format('truetype'),/* Safari, Android, iOS */
+        url('/polices/dayrom.svg#Dayrom') format('svg')/* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Defie principal elements*/
+
+body{
+    background: url('/images/fond_jaune.png');
+    font-family: 'Trebouchet MS', Arial, sans-serif;
+    color: #181818;
+}
+
+#blog-page{
+    width: 900px;
+    margin: auto;
+}
+
+section h1, footer h1, nav a{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+/* header */
+header{
+    
+}
