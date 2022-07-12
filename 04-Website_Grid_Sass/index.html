@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Website Grid SASS</title>
+    <link rel="stylesheet" href="scss/main.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header-text-title-xl">Welcome to my <span>Portfolio</span></h1>
+    </header>
+
+    <section class="intro">
+        <div class="intro-left">
+           <img src="img/welcome-01.png" alt="a laptop on a wood table"/> 
+        </div>
+        <div class="intro-middle">
+            <h2 class="intro-text-title-lg">Making it happen</h2>
+            <p class="text-nm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet eleifend justo. Quisque non magna vel justo
+            eleifend imperdiet</p>
+        </div>
+        <div class="intro-right">
+            <img src='img/welcome-02.png' alt="two computers and a laptop on a table"/>
+
+        </div>
+    </section>
+
+    <section class="about-me">
+        <img src="img/joe-portfolio.png" alt="A picture of Joe Portfolio"/>
+        <h1 class="about-me-title-lg">Joe Portfolio</h1>
+        <h2 class="about-me-title-nm">Designer & Developer</h2>
+        <div class="about-me-text">
+            <p class="text-nm">Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus
+                tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit
+                lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo
+                sodales. Interdum et malesuada fames ac ante.</p>
+            <p class="text-nm">Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus
+                tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit
+                lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo
+                sodales. Interdum et malesuada fames ac ante.</p>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <h1 class="text-title-lg">My work</h1>
+        <div class="portfolio-item">
+            <!-- Portfolio item 1 -->
+            <figure class="portfolio-item featured">
+                <img class="portfolio-image" src="img/portfolio-01.jpg" alt="portfolio item">
+                <figcaption>
+                    <h2 class="portfolio-title">Project name</h2>
+                    <p class="portfolio-desc">A short description could go right here</p>
+                    <a href="#" class="portfolio-link">Read more</a>
+                </figcaption>
+            </figure>
+            <!-- Portfolio item 2 -->
+            <figure class="portfolio-item">
+                <img class="portfolio-image" src="img/portfolio-02.jpg" alt="portfolio item">
+                <figcaption>
+                    <h2 class="portfolio-title">Project name</h2>
+                    <p class="portfolio-desc">A short description could go right here</p>
+                    <a href="#" class="portfolio-link">Read more</a>
+                </figcaption>
+            </figure>
+            <!-- Portfolio item 3 -->
+            <figure class="portfolio-item">
+                <img class="portfolio-image" src="img/portfolio-03.jpg" alt="portfolio item">
+                <figcaption>
+                    <h2 class="portfolio-title">Project name</h2>
+                    <p class="portfolio-desc">A short description could go right here</p>
+                    <a href="#" class="portfolio-link">Read more</a>
+                </figcaption>
+            </figure>
+            <!-- Portfolio item 4 -->
+            <figure class="portfolio-item">
+                <img class="portfolio-image" src="img/portfolio-04.jpg" alt="portfolio item">
+                <figcaption>
+                    <h2 class="portfolio-title">Project name</h2>
+                    <p class="portfolio-desc">A short description could go right here</p>
+                    <a href="#" class="portfolio-link">Read more</a>
+                </figcaption>
+            </figure>
+            <!-- Portfolio item 5 -->
+            <figure class="portfolio-item">
+                <img class="portfolio-image" src="img/portfolio-05.jpg" alt="portfolio item">
+                <figcaption>
+                    <h2 class="portfolio-title">Project name</h2>
+                    <p class="portfolio-desc">A short description could go right here</p>
+                    <a href="#" class="portfolio-link">Read more</a>
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h1 class="contant-title">Contact me</h1>
+        <form action="" class="form">
+            <label for="name">Name:
+                <input type="text" name="name" id="name">
+            </label>
+            <label for="email">Email:
+                <input type="email" name="email" id="email" required>
+            </label>
+            <label for="message">Message:
+                <textarea name="Message" id="message"></textarea>
+            </label>
+        </form>
+
+        <input type="submit" class="btn" value="SEND">
+    </section>
+
+    <footer class="footer">
+        <p>Follow me on social media</p>
+        <div class="social-icons">
+            <img class="social-icon" src="img/twitter.svg" alt="twitter">
+            <img class="social-icon" src="img/instagram.svg" alt="twitter">
+            <img class="social-icon" src="img/github.svg" alt="twitter">
+        </div>
+    </footer>
+    
+</body>
+
+</html>
